@@ -53,6 +53,8 @@ baseurl: ''
 #
 
 permalink: /:title/
+tag_page_layout: tag
+tag_page_dir: blog/tags
 
 # The release of Jekyll Now that you're using
 version: v1.2.0
@@ -75,7 +77,7 @@ sass:
 gems:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
-
+  - jekyll/tagging
 # Exclude these files from your production _site
 exclude:
   - Gemfile
